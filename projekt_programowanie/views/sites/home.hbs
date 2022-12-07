@@ -1,0 +1,19 @@
+<main class="home">
+    <h1>Najbliższe mecze:</h1>
+    {{#each matches}}
+        <div class="match-card">
+            <div class="match-display">
+                <a href="/countries/{{this.team1}}">
+                    <img src="/images/teams/{{this.team1}}.jpg">
+                </a>
+                <p> - </p>
+                <a href="/countries/{{this.team2}}">
+                    <img src="/images/teams/{{this.team2}}.jpg">
+                </a>
+            </div>
+            <a href="ticket/{{this.team1}}-{{this.team2}}">
+                <button>Rezerwuj Bilet</button>
+            </a>
+        </div>
+    {{/each}}
+</main>

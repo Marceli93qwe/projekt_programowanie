@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.match-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.match-card {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 600px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.match-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.match-card button {
+    all: unset;
+    border: 1px solid black;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.match-card button:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+.match-card p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.match-card img {
+    width: 120px;
+    height: 70px;
+}
+
+.match-card img:hover {
+    border: 2px solid black;
+}

@@ -1,0 +1,23 @@
+header {
+    background: url("../images/mundial_baner.png");
+    background-position: 50% 18%;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 4vh;
+    padding-bottom: 5px;
+    color: whitesmoke;
+}
+
+header a {
+    all: unset;
+    color: whitesmoke;
+    display: block;
+    padding: 5px;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    cursor: pointer;
+}

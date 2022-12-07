@@ -1,0 +1,37 @@
+<main class="country">
+    <div class="country-box">
+        <h1>{{polishName}}</h1>
+        <img src="/images/teams/{{name}}.jpg">
+        <h2>Skład</h2>
+        <h3>Trenerzy:</h3>
+        <ul>
+            {{#each trainers}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h3>Bramkarze:</h3>
+        <ul>
+            {{#each goalkeepers}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h3>Obrońcy:</h3>
+        <ul>
+            {{#each defenders}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h3>Pomocnicy:</h3>
+        <ul>
+            {{#each midfielders}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <h3>Napastnicy:</h3>
+        <ul>
+            {{#each attackers}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+</main>
